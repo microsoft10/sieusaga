@@ -1,0 +1,290 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "serverfarms_chieuannhieusd041_name": {
+            "defaultValue": "chieuannhieusd041",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd042_name": {
+            "defaultValue": "chieuannhieusd042",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd043_name": {
+            "defaultValue": "chieuannhieusd043",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd044_name": {
+            "defaultValue": "chieuannhieusd044",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd045_name": {
+            "defaultValue": "chieuannhieusd045",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd046_name": {
+            "defaultValue": "chieuannhieusd046",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd047_name": {
+            "defaultValue": "chieuannhieusd047",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd048_name": {
+            "defaultValue": "chieuannhieusd048",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd049_name": {
+            "defaultValue": "chieuannhieusd049",
+            "type": "String"
+        },
+		"serverfarms_chieuannhieusd040_name": {
+            "defaultValue": "chieuannhieusd040",
+            "type": "String"
+        }
+		
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd041_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd042_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd043_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd044_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd045_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd046_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd047_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd048_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd049_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        },
+		{
+            "type": "Microsoft.Web/serverfarms",
+            "apiVersion": "2018-02-01",
+            "name": "[parameters('serverfarms_chieuannhieusd040_name')]",
+            "location": "West US 2",
+            "sku": {
+                "name": "P3v2",
+                "tier": "PremiumV2",
+                "size": "P3v2",
+                "family": "Pv2",
+                "capacity": 1
+            },
+            "kind": "linux",
+            "properties": {
+                "perSiteScaling": false,
+                "maximumElasticWorkerCount": 1,
+                "isSpot": false,
+                "reserved": true,
+                "isXenon": false,
+                "hyperV": false,
+                "targetWorkerCount": 0,
+                "targetWorkerSizeId": 0
+            }
+        }
+    ]
+}
